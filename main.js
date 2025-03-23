@@ -71,9 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .education-item, .resume-title,.skills-title,.projects-title',{delay: 350}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .projects__container, .contact__input,.download-button',{interval: 200});
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .education-item,.education-title,.projects-title,.projects-container,.resume-title,.resume-content,projects-content,.certification-container,.certification-contents',{delay: 400}); 
+sr.reveal('.home__social-icon',{ interval: 200});
+sr.reveal('.skills__data, .contact__input,send me',{interval: 200});
 
